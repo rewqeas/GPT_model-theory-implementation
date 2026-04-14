@@ -21,7 +21,7 @@ Because vectors are contextualized and re-ordered meaning is lost, the model has
 
 Causal masking restricts which tokens a position can attend to:
 
-$$P(x_t \mid x_{<t}) = P(x_t \mid x_1, x_2, \dots, x_{t-1})$$
+$$P(x_t \mid x_{\lt t}) = P(x_t \mid x_1, x_2, \dots, x_{t-1})$$
 
 When $t = 28$ (context window boundary), the model attends to all previous tokens. However, **without positional encoding**, the model cannot distinguish between:
 
