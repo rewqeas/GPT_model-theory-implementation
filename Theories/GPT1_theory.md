@@ -95,8 +95,7 @@ For every query, key, and value vector:
  
 $$h_0 = U W_e + W_p$$
  
-$$h_l = \text{transformer\_block}(h_{l-1}), \quad \forall\, l \in [1, n] \tag{b}$$ 
-
+$$h_l = \text{transformer\_block}(h_{l-1}), \quad \forall\, l \in [1, n] \tag{b}$$
 (applied for every layer $l$)
  
 **Output projection** (logit probability scores for the $u$-th token):
