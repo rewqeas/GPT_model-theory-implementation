@@ -70,3 +70,13 @@ python gpt.py
 - `Theories/GPT1_theory.md` - Theoretical background on GPT models
 - `optimizer/introduction.md` - Optimizer documentation
 - `Theories/asked_questions.md` - Q&A on implementation details
+
+## Further Add-ons & Advanced Topics
+
+1. **GPT-2 Theory**
+2. **Optimizer: From Gradient Descent to Adam Step by Step**
+3. **Regularization Importance**
+4. **Linear Scheduling**
+5. **Residual Importance in Loss**
+
+
