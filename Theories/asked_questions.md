@@ -108,19 +108,6 @@ Residual connections work together with the cross-entropy loss to ensure:
 
 ---
 
-## 6. The $\lambda$ Hyperparameter
-
-> *To be filled in — influence of $\lambda$ on model training and model type.*
-
-$\lambda$ typically appears as a **regularization coefficient** (e.g., in L1/L2 weight decay). Its effect:
-
-- **Large $\lambda$**: Stronger regularization → simpler model, reduced overfitting, but risk of underfitting.
-- **Small $\lambda$**: Weaker regularization → model fits training data more closely, higher variance.
-
-Its exact role depends on where it appears in the loss (e.g., $L_{\text{total}} = L_{\text{CE}} + \lambda \|\theta\|^2$).
-
----
-
 ## Quick Reference
 
 | Concept | Core Idea |
