@@ -41,7 +41,7 @@ Causal masking controls *which* tokens are visible; positional encoding tells th
 
 During training, the model is given **ground truth tokens** as input at each step, regardless of what it previously predicted:
 
-$$P(x_t \mid x_{<t})$$
+$$P(x_t \mid x_{\lt t})$$
 
 If the model predicts the wrong token, the ground truth replaces it for the next step. This:
 - Ensures stable, parallelizable training
