@@ -34,7 +34,6 @@ Trained on **WikiText-2** dataset with split into:
 - PyTorch >= 2.2.2
 - tiktoken >= 0.5.1 (GPT-2 tokenizer)
 - matplotlib >= 3.7.1 (visualization)
-- tqdm >= 4.66.1 (progress bars)
 - numpy >= 1.26
 
 ### Installation
