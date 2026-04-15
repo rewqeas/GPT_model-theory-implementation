@@ -128,7 +128,7 @@ If there are 3 labels, the model calculates the probability score for which of t
  
 The loss function used is **cross-entropy**:
  
-$$L_2(C) = \sum_{(x,\, y)} \log P(y \mid x_1, \ldots, x_m) \tag{d}$$
+$$L_2(C) = -\sum_{(x,\, y)} \log P(y \mid x_1, \ldots, x_m) \tag{d}$$
  
 > Note: Since $y_i^{(\text{actual})} = 1$, it does not appear explicitly in the formula.
  
